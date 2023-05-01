@@ -143,11 +143,11 @@
         </div>
         <hr>
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
-        <input type="text" name="name" id="name" placeholder="Email" required/>
+        <input type="text" name="name" id="emailId" placeholder="Email" required/>
         <label id="icon" for="name"><i class="fas fa-user"></i></label>
         <input type="text" name="name" id="name" placeholder="Name" required/>
         <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
-        <input type="password" name="name" id="name" placeholder="Password" required/>
+        <input type="password" name="name" id="password" placeholder="Password" required/>
         <hr>
         <div class="gender">
           <input type="radio" value="none" id="male" name="gender" checked/>
@@ -156,9 +156,13 @@
           <label for="female" class="radio">Female</label>
         </div>
         <hr>
+        
         <div class="btn-block">
+        
+        
           <p>By clicking Register, you agree on our <a href="https://www.w3docs.com/privacy-policy">Privacy Policy for W3Docs</a>.</p>
-          <button type="submit" href="/">Submit</button>
+        	<br>
+          <a type="submit" href="success/success.html">Submit</a>
         </div>
       </form>
     </div>
